@@ -79,7 +79,7 @@ function App() {
               setCharAllow((prev)=>{return !prev}); 
             }}
             />
-            <label className='text-white mr-2'>CharAllowed</label>
+            <label className='text-white mr-2'>Special Char</label>
 
             <input type="checkbox"
              defaultChecked={numallow}
